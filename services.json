@@ -1,0 +1,13 @@
+[
+  {
+    "name" : "MySQL Server",
+    "proc" : "mysqld",
+    "restart": "service mysql start"
+  },
+  {
+    "name" : "Web Server",
+    "proc" : "apache2",
+    "restart": "service apache2 start"
+  }
+
+]
